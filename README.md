@@ -4,15 +4,15 @@ Pytorch RBF Layer implements a radial basis function layer in Pytorch.
 Radial Basis networks can be used to approximate functions, and can be combined together with other PyTorch layers.
 
 An RBF is defined by 5 elements:
-        1. A radial kernel <img src="https://render.githubusercontent.com/render/math?math=\phi">
-        2. A positive shape parameter <img src="https://render.githubusercontent.com/render/math?math=\epsilon"> that is a scaling factor
-        3. The number of kernels <img src="https://render.githubusercontent.com/render/math?math=N">, and relative
-           center <img src="https://render.githubusercontent.com/render/math?math=\{c_i\}_{i=1}^N">
-        4. A norm <img src="https://render.githubusercontent.com/render/math?math=\|\cdot\|">
-        5. A set of weights <img src="https://render.githubusercontent.com/render/math?math=\{w_i\}_{i=1}^N">
+1. A radial kernel <img src="https://render.githubusercontent.com/render/math?math=\phi:\mathbb{R}\to [0,\infty)">
+2. A positive shape parameter <img src="https://render.githubusercontent.com/render/math?math=\epsilon"> that is a scaling factor
+3. The number of kernels <img src="https://render.githubusercontent.com/render/math?math=N">, and relative
+   center <img src="https://render.githubusercontent.com/render/math?math=\{c_i\}_{i=1}^N">
+4. A norm <img src="https://render.githubusercontent.com/render/math?math=\|\cdot\|">
+5. A set of weights <img src="https://render.githubusercontent.com/render/math?math=\{w_i\}_{i=1}^N">
 
 The output of an RBF is given by
-<img src="https://render.githubusercontent.com/render/math?math=y(x) = \sum_{i=1}^N w_i * \phi(epsilon_i * ||x - c_i||)">, where <img src="https://render.githubusercontent.com/render/math?math=x"> is the input data.
+<img src="https://render.githubusercontent.com/render/math?math=y(x) = \sum_{i=1}^N w_i * \phi(\epsilon_i * ||x - c_i||)">, where <img src="https://render.githubusercontent.com/render/math?math=x"> is the input data.
 
 The RBFLayer class takes as input the dimensionality of <img src="https://render.githubusercontent.com/render/math?math=x">, the number of desired kernels, the output dimensionality, the radial function and the norm used.
 
@@ -20,13 +20,13 @@ The parameters can be learnt, or set to a default parameter.
 
 For more information check 
 
-[1] https://en.wikipedia.org/wiki/Radial_basis_function
-[2] https://en.wikipedia.org/wiki/Radial_basis_function_network
+* [1] https://en.wikipedia.org/wiki/Radial_basis_function
+* [2] https://en.wikipedia.org/wiki/Radial_basis_function_network
 
 _Author_: Alessio Russo (PhD Student at KTH - alessior@kth.se)
 
 
-![alt tag](https://github.com/rssalessio/PytorchRBFLayer/blob/master/examples/img.png)
+![alt tag](https://github.com/rssalessio/PytorchRBFLayer/blob/main/examples/img.png)
 
 ## License
 Our code is released under the MIT license (refer to the [LICENSE](https://github.com/rssalessio/PytorchRBFLayer/blob/main/LICENSE) file for details).
