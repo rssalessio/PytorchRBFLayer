@@ -64,8 +64,8 @@ rbf = RBFLayer(in_features_dim=20,            # input features dimensionality
                num_kernels=5,                 # number of kernels
                out_features_dim=2,            # output features dimensionality
                radial_function=rbf_gaussian,  # radial basis function used
-               norm_function=l_norm,          # l_norm defines the \ell norm
-               normalization=True)            # normalized the network
+               norm_function=l_norm)          # l_norm defines the \ell norm
+
 
 # Uniformly sample 100 points with 20 features
 x = torch.rand((100, 20))
