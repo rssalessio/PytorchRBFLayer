@@ -4,7 +4,7 @@ Pytorch RBF Layer implements a radial basis function layer in Pytorch.
 Radial Basis networks can be used to approximate functions, and can be combined together with other PyTorch layers.
 
 An RBF is defined by 5 elements:
-1. A radial kernel <img src="https://render.githubusercontent.com/render/math?math=\phi:\mathbb{R}\to [0,\infty)">
+1. A radial kernel <img src="https://render.githubusercontent.com/render/math?math=\phi: [0,\infty) \to \mathbb{R}\">
 2. A positive shape parameter <img src="https://render.githubusercontent.com/render/math?math=\epsilon"> that is a scaling factor
 3. The number of kernels <img src="https://render.githubusercontent.com/render/math?math=N">, and relative
    centers <img src="https://render.githubusercontent.com/render/math?math=\{c_i\}_{i=1}^N">
