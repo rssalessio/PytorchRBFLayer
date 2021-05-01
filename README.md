@@ -14,9 +14,9 @@ An RBF is defined by 5 elements:
 The output of an RBF is given by
 <img src="https://render.githubusercontent.com/render/math?math=y(x) = \sum_{i=1}^N w_i * \phi(\epsilon_i * ||x - c_i||)">, where <img src="https://render.githubusercontent.com/render/math?math=x"> is the input data.
 
-The RBFLayer class takes as input the dimensionality of <img src="https://render.githubusercontent.com/render/math?math=x">, the number of desired kernels, the output dimensionality, the radial function and the norm used.
+The RBFLayer class takes as input: (1) the dimensionality of <img src="https://render.githubusercontent.com/render/math?math=x">; (2) the number of desired kernels; (3) the output dimensionality; (4) the radial function; (5) the norm to use.
 
-The parameters can be learnt, or set to a default parameter.    
+The parameters can be either learnt, or set to a default parameter.    
 
 For more information check 
 
