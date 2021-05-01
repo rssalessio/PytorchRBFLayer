@@ -7,7 +7,7 @@ An RBF is defined by 5 elements:
 1. A radial kernel <img src="https://render.githubusercontent.com/render/math?math=\phi:\mathbb{R}\to [0,\infty)">
 2. A positive shape parameter <img src="https://render.githubusercontent.com/render/math?math=\epsilon"> that is a scaling factor
 3. The number of kernels <img src="https://render.githubusercontent.com/render/math?math=N">, and relative
-   center <img src="https://render.githubusercontent.com/render/math?math=\{c_i\}_{i=1}^N">
+   centers <img src="https://render.githubusercontent.com/render/math?math=\{c_i\}_{i=1}^N">
 4. A norm <img src="https://render.githubusercontent.com/render/math?math=\|\cdot\|">
 5. A set of weights <img src="https://render.githubusercontent.com/render/math?math=\{w_i\}_{i=1}^N">
 
