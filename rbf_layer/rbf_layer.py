@@ -24,8 +24,8 @@ class RBFLayer(nn.Module):
     An RBF is defined by 5 elements:
         1. A radial kernel phi
         2. A positive shape parameter epsilon
-        3. The number of kernels N, and relative
-           center c_i, i=1, ..., N
+        3. The number of kernels N, and their relative
+           centers c_i, i=1, ..., N
         4. A norm ||.||
         5. A set of weights w_i, i=1, ..., N
 
@@ -223,3 +223,19 @@ class RBFLayer(nn.Module):
                                       batch_size, 1, self.num_kernels)
 
         return out.sum(dim=-1)
+
+    @property
+    def get_kernels_centers(self):
+        """ Returns the centers of the kernels """
+        return self.kernels_centers.detach()
+
+    @property
+    def get_weights(self):
+        """ Returns the linear combination weights """
+        return self.weights.detach()
+
+    @property
+    def get_shapes(self):
+        """ Returns the shape parameters """
+        return self.log_shapes.detach().exp()
+    
