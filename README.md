@@ -23,11 +23,13 @@ For more information check
 * [1] https://en.wikipedia.org/wiki/Radial_basis_function
 * [2] https://en.wikipedia.org/wiki/Radial_basis_function_network
 
-_Author_: Alessio Russo (PhD Student at KTH - alessior@kth.se)
+
 
 An example of input/output mapping learnt by RBF             |  Multiclass classification example
 :-------------------------:|:-------------------------:
 ![](https://github.com/rssalessio/PytorchRBFLayer/blob/main/examples/example_1_img.png)  |  ![](https://github.com/rssalessio/PytorchRBFLayer/blob/main/examples/example_classification_img.png)
+
+_Author_: Alessio Russo (PhD Student at KTH - alessior@kth.se)
 
 ## License
 Our code is released under the MIT license (refer to the [LICENSE](https://github.com/rssalessio/PytorchRBFLayer/blob/main/LICENSE) file for details).
