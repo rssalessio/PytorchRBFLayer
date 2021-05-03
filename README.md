@@ -26,7 +26,7 @@ For more information check
 _Author_: Alessio Russo (PhD Student at KTH - alessior@kth.se)
 
 
-![alt tag](https://github.com/rssalessio/PytorchRBFLayer/blob/main/examples/img.png)
+![alt tag](https://github.com/rssalessio/PytorchRBFLayer/blob/main/examples/example_1_img.png)
 ![alt tag](https://github.com/rssalessio/PytorchRBFLayer/blob/main/examples/example_classification_img.png)
 
 ## License
