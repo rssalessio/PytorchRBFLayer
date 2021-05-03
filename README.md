@@ -27,6 +27,7 @@ _Author_: Alessio Russo (PhD Student at KTH - alessior@kth.se)
 
 
 ![alt tag](https://github.com/rssalessio/PytorchRBFLayer/blob/main/examples/img.png)
+![alt tag](https://github.com/rssalessio/PytorchRBFLayer/blob/main/examples/example_classification_img.png)
 
 ## License
 Our code is released under the MIT license (refer to the [LICENSE](https://github.com/rssalessio/PytorchRBFLayer/blob/main/LICENSE) file for details).
@@ -38,7 +39,8 @@ To run the library you need atleast Python 3.5 and PyTorch.
 ## Usage/Examples
 You can start using the layer by typing ```python from rbf_layer import RBFLayer``` in your code.
 
-To learn how to use the RBFLayer, check the examples located in the examples/ folder.
+To learn how to use the RBFLayer, check the examples located in the examples/ folder:
+* [Multiclass classification example](https://github.com/rssalessio/PytorchRBFLayer/blob/main/examples/example_multiclass_classification.ipynb) 
 
 In general the code has the following structure
 ```python
