@@ -7,13 +7,13 @@ An RBF is defined by 5 elements:
 1. A radial kernel <img src="https://render.githubusercontent.com/render/math?math=\phi: [0,\infty) \to \mathbb{R}">
 2. The number of kernels <img src="https://render.githubusercontent.com/render/math?math=N">, and relative
    centers <img src="https://render.githubusercontent.com/render/math?math=\{c_i\}_{i=1}^N">
-3. Positive shape parameters <img src="https://render.githubusercontent.com/render/math?math=\{\varepsilon_i\}_{i=1}^N, \varepsilon_i > 0">, which are scaling factors
+3. Positive shape parameters <img src="https://render.githubusercontent.com/render/math?math=\{\s_i\}_{i=1}^N, \s_i > 0">, which are scaling factors
 
 4. A norm <img src="https://render.githubusercontent.com/render/math?math=\|\cdot\|">
 5. A set of weights <img src="https://render.githubusercontent.com/render/math?math=\{w_i\}_{i=1}^N">
 
 The output of an RBF is given by
-<img src="https://render.githubusercontent.com/render/math?math=y(x) = \sum_{i=1}^N w_i * \phi(\varepsilon_i * ||x - c_i||)">, where <img src="https://render.githubusercontent.com/render/math?math=x"> is the input data.
+<img src="https://render.githubusercontent.com/render/math?math=y(x) = \sum_{i=1}^N w_i * \phi(\s_i * ||x - c_i||)">, where <img src="https://render.githubusercontent.com/render/math?math=x"> is the input data.
 
 The RBFLayer class takes as input: (1) the dimensionality of <img src="https://render.githubusercontent.com/render/math?math=x">; (2) the number of desired kernels; (3) the output dimensionality; (4) the radial function; (5) the norm to use.
 
