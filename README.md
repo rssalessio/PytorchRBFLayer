@@ -25,9 +25,9 @@ For more information check
 
 _Author_: Alessio Russo (PhD Student at KTH - alessior@kth.se)
 
-
-![alt tag](https://github.com/rssalessio/PytorchRBFLayer/blob/main/examples/example_1_img.png)
-![alt tag](https://github.com/rssalessio/PytorchRBFLayer/blob/main/examples/example_classification_img.png)
+An example of input/output mapping learnt by RBF             |  Multiclass classification example
+:-------------------------:|:-------------------------:
+![](https://github.com/rssalessio/PytorchRBFLayer/blob/main/examples/example_1_img.png)  |  ![](https://github.com/rssalessio/PytorchRBFLayer/blob/main/examples/example_classification_img.png)
 
 ## License
 Our code is released under the MIT license (refer to the [LICENSE](https://github.com/rssalessio/PytorchRBFLayer/blob/main/LICENSE) file for details).
